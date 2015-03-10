@@ -17,6 +17,6 @@ Usage
 ```
 include('sugarcrm.php');
 
-$a = new SugarCRM('crm.example.com', 'user1', 'strongpassword1');
-var_dump($a->getServerInfo());
+$sugar = new SugarCRM('crm.example.com', 'user1', 'strongpassword1');
+var_dump($sugar->getServerInfo());
 ```
